@@ -5,10 +5,12 @@ var gameStatus = document.querySelector('#game-status');
 async function getPokemonAPI() {
     var res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=151");
     var pokeData = await res.json();
-
+    gameWindow.innerHTML = "";
+    gameStatus.innerText = "";
     getAnswers(pokeData.results)
 
     console.log(pokeData.results);
+    return pokeData
 }
 
 
