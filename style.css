@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    image-rendering: pixelated;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/a56806bce812d4ec85665792d83b809b.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.faded {
+    background: rgba(44, 44, 44, 0.8);
+    color: white;
+}
+
+.no-mt {
+    margin-top: 0 !important;
+}
+
+#game-title {
+    font-size: xx-large;
+}
+
+.text-box {
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    width: 1000px;
+}
+
+.poke-sprite-hidden {
+    filter: contrast(0%);
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#game-screen h1:hover {
+    color: red;
+}
+
+#game-status {
+    text-align: center;
+    color: yellow;
+}

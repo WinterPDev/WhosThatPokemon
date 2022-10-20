@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Who's That Pokemon</title>
+</head>
+
+<body>
+    <div class="no-mt text-box faded">
+        <div class="is-rounded nes-container">
+            <p id="game-title">Who's That Pokemon?!</p>
+            <p>Source of Data: <a href="https://pokeapi.co/">Pokemon API</a></p>
+            <p>Made using <a href="https://nostalgic-css.github.io/NES.css/">NES CSS</a>!</p>
+            <button class="nes-btn" onclick="getPokemonAPI()">Game Start</button>
+        </div>
+    </div>
+    <h1 id="game-status"></h1>
+    <div class="text-box faded">
+        <div id="game-screen" class="nes-container is-rounded">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
